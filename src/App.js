@@ -21,7 +21,14 @@ function Box() {
         <mesh onClick = { () => {
                       
              api.velocity.set(0.1,5,0.1)
-         } }  ref = {ref} position = { [0,10,0]}  >
+         } }
+           
+           onTouch = { () => {
+                      
+             api.velocity.set(0.1,5,0.1)
+         } }
+
+           ref = {ref} position = { [0,10,0]}  >
             <boxBufferGeometry attach ="geometry"  />
              <meshLambertMaterial attach="material" color="gold"  />                         
 
