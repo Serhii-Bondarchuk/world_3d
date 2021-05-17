@@ -15,16 +15,24 @@ function Box() {
         }
     })
 
+    // onClick = { () => {
+    //                  console.log('click')         
+    //              api.velocity.set(0.1,5,0.1)
+    //          } }
+
+
+
 
     return (
 
-        <mesh onClick = { () => {
-                      
+        <mesh 
+onClick = { () => {
+                        
              api.velocity.set(0.1,5,0.1)
          } }
            
-           onTouch = { () => {
-                      
+           onPointerDown = { () => {
+                  
              api.velocity.set(0.1,5,0.1)
          } }
 
@@ -49,7 +57,7 @@ function Plane(props) {
 
 
     return (
-        <mesh  className='plane'  rotation = {[-Math.PI/2, 0, 0 ]} >
+        <mesh      className='plane'  rotation = {[-Math.PI/2, 0, 0 ]} >
             <planeBufferGeometry attach ="geometry" args = {[15,15]} />
              <meshLambertMaterial attach="material" color="blue"   />                         
          
@@ -78,8 +86,8 @@ export default function App() {
 
     return (
 
-        <div>
-            <Text />
+        <React.Fragment>
+            <Text  />
             <Manual  /> 
             <Canvas className ='can'  >
        
@@ -95,11 +103,11 @@ export default function App() {
          
               <Physics>
                <Cloud position = {[7,12,0]} />
-                <Box   />
+                <Box    />
                 <Plane  />
              </Physics>
           </Canvas>
 
-        </div>
+        </React.Fragment>
     )
 }
