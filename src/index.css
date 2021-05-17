@@ -5,9 +5,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h2, h4{
+	margin-top: 170px;
+	color: gold;
+	/*z-index: 1000;*/
+	position: absolute;
+	margin-left: 43%;
+
+} 
+
+h4{
+  margin-top: 260px;
+  color: gold;
+ 
+  position: absolute;
+  margin-left: 43%;
+  color: red;
+
+} 
+
+.man {
+  color: silver;
+   position: absolute;
+}
+
+.man li{
+  list-style-type: none;
+   font-size: 20px;
+   
+}
+
+
+
