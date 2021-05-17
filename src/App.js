@@ -15,13 +15,6 @@ function Box() {
         }
     })
 
-    // onClick = { () => {
-    //                  console.log('click')         
-    //              api.velocity.set(0.1,5,0.1)
-    //          } }
-
-
-
 
     return (
 
