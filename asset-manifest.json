@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/world_3d/static/css/main.705420cf.chunk.css",
+    "main.js": "/world_3d/static/js/main.9d10b027.chunk.js",
+    "main.js.map": "/world_3d/static/js/main.9d10b027.chunk.js.map",
+    "runtime-main.js": "/world_3d/static/js/runtime-main.a1016574.js",
+    "runtime-main.js.map": "/world_3d/static/js/runtime-main.a1016574.js.map",
+    "static/js/2.502b1883.chunk.js": "/world_3d/static/js/2.502b1883.chunk.js",
+    "static/js/2.502b1883.chunk.js.map": "/world_3d/static/js/2.502b1883.chunk.js.map",
+    "static/js/3.b2716b24.chunk.js": "/world_3d/static/js/3.b2716b24.chunk.js",
+    "static/js/3.b2716b24.chunk.js.map": "/world_3d/static/js/3.b2716b24.chunk.js.map",
+    "index.html": "/world_3d/index.html",
+    "static/css/main.705420cf.chunk.css.map": "/world_3d/static/css/main.705420cf.chunk.css.map",
+    "static/js/2.502b1883.chunk.js.LICENSE.txt": "/world_3d/static/js/2.502b1883.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1016574.js",
+    "static/js/2.502b1883.chunk.js",
+    "static/css/main.705420cf.chunk.css",
+    "static/js/main.9d10b027.chunk.js"
+  ]
+}
